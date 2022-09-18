@@ -7,8 +7,17 @@ var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 var numb = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"];
 
+var result = [];
+var userChoice = [];
 
-}
+
+
+  var passLength = prompt ("Choose a password length between 8 and 128 characters.");
+  var numberConfirm = confirm ("Do you want numbers in your password?");
+  var upperCaseConfirm = confirm ("Do you want uppercase in your password?");
+  var lowerCaseConfirm = confirm ("Do you want lowercase in your password?");
+  var specialConfirm = confirm ("Do you want special characters in your password?");
+
 
 
 // Write password to the #password input
