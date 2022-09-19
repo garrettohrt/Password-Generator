@@ -14,6 +14,13 @@ function generatePassword() {
 
   //Prompts will let the user choose what characters to include in the password
   var passLength = prompt("Choose a password length between 8 and 128 characters.");
+
+  //If statement validating the password length
+  if (passLength < 8 || passLength > 128) {
+    alert("Not a valid password length");
+    return generatePassword();
+  }
+  //Prompts continued
   var lowercase = confirm("Do you want lowercase in your password?");
   var uppercase = confirm("Do you want uppercase in your password?");
   var number = confirm("Do you want lowercase in your password?");
