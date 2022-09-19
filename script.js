@@ -12,14 +12,14 @@ function generatePassword() {
   var result = [];
   var userChoice = [];
 
-//Prompts will let the user choose what characters to include in the password
+  //Prompts will let the user choose what characters to include in the password
   var passLength = prompt("Choose a password length between 8 and 128 characters.");
   var lowercase = confirm("Do you want lowercase in your password?");
   var uppercase = confirm("Do you want uppercase in your password?");
   var number = confirm("Do you want lowercase in your password?");
   var special = confirm("Do you want special characters in your password?");
 
-//If statements used to concatenate the user choices in the empty result array
+  //If statements used to concatenate the user choices in the empty result array
   if (lowercase) {
     result = result.concat(lowercaseSet);
 
@@ -40,13 +40,13 @@ function generatePassword() {
   }
   console.log(result)
 
-//For loop used to paste the random result array in the empty userChoice array
+  //For loop used to paste the random result array in the empty userChoice array
   for (var i = 0; i < passLength; i++) {
 
     userChoice.push(result[Math.floor(Math.random() * result.length)]);
   }
 
-  //Join method used to turn the array into a string
+  //Join method used to turn the userChoice array into a string
   return userChoice.join("");
 }
 
