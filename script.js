@@ -20,6 +20,12 @@ function generatePassword() {
     alert("Not a valid password length");
     return generatePassword();
   }
+  if (passLength === "") {
+    alert("Not a valid password length");
+    return generatePassword();
+  }
+  
+
   //Prompts continued
   var lowercase = confirm("Do you want lowercase in your password?");
   var uppercase = confirm("Do you want uppercase in your password?");
