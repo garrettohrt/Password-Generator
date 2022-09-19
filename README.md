@@ -25,7 +25,6 @@ Garrett Ohrt - garrettohrt@gmail.com
 
 Project Link: [https://garrettohrt.github.io/Password-Generator/](https://garrettohrt.github.io/Password-Generator/)
 
-Project Repository: [https://github.com/garrettohrt/Password-Generator]
-(https://github.com/garrettohrt/Password-Generator)
+Project Repository: [https://github.com/garrettohrt/Password-Generator](https://github.com/garrettohrt/Password-Generator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
